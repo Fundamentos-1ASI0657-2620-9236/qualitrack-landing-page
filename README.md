@@ -103,15 +103,11 @@ First stable release of the QualiTrack Landing Page.
 
 | Name | Code | Role |
 |---|---|---|
-| Baca Camargo, Vitaly Arturo | U20231c426 | Software Engineer |
-| Cutiri Agüero, Fabrizio Alexander | U201914181 | Software Engineer |
-| Guzmán Cabrejos, Yaku Mateo | u20231b173 | Software Engineer |
-| Huapaya Galindo, Dyron | U202322855 | Software Engineer |
-| Lopez Roman, Franco Mauricio | U202315890 | Software Engineer |
+| Becerra Ttito, Felix Orlando | U20211B387 | Software Engineer |
+| Jara Benites, Quique Vladimir | U202022365 | Software Engineer |
 | Montes Ramos, Henry Jaredt | U20231D343 | Software Engineer |
 | Quiroz Cáceres, Adrian | U202214864 | Software Engineer |
 | Ruiz Madrid, Billy Jake | U202116401 | Software Engineer |
-| Torres Apolinario, Giovany Smith | U202311601 | Software Engineer |
 
 > Software Engineering students at **Universidad Peruana de Ciencias Aplicadas (UPC)**.
 
