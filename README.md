@@ -81,7 +81,7 @@ qualitrack-website/
 
 ## Deployment
 
-The site is published with **GitHub Pages** at [iotech-2620-8741.github.io/qualitrack-website](https://iotech-2620-8741.github.io/qualitrack-website/).
+The site is published with **GitHub Pages** at [fundamentos-1asi0657-2620-9236.github.io/qualitrack-landing-page](https://fundamentos-1asi0657-2620-9236.github.io/qualitrack-landing-page/).
 
 Every push to `main` runs the `Deploy to GitHub Pages` workflow (`.github/workflows/deploy.yml`), which publishes the `public/` folder as the root of the site. The workflow can also be run manually from the **Actions** tab.
 
