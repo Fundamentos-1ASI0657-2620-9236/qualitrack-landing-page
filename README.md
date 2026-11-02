@@ -50,23 +50,40 @@ This Landing Page was built with standard web technologies, prioritizing perform
 ## Project Structure
 
 ```
-IoTech-LandingPage/
-├── index.html                         # Main landing page
+qualitrack-website/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                 # Deploys public/ to GitHub Pages on every push to main
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE.md
 ├── README.md
-└── public/
+└── public/                            # Root of the published site
+    ├── index.html                     # Main landing page
+    ├── _header.html                   # Shared header (loaded by main.js)
+    ├── _footer.html                   # Shared footer (loaded by main.js)
+    ├── _language-switcher.html        # Shared floating language switcher (loaded by main.js)
     ├── assets/
     │   ├── styles/
     │   │   └── style.css              # Global stylesheet + branding variables
     │   ├── scripts/
-    │   │   ├── main.js                # i18n engine, accordion, plans toggle, animations
+    │   │   ├── main.js                # Shared layout, i18n engine, accordion, plans toggle, animations
     │   │   └── translations/
-    │   │       ├── en.js              # English translations (translationsEN)
-    │   │       └── es.js              # Spanish translations (translationsES)
-    │   └── images/                    # Team photos, logo, hero image
+    │   │       ├── en.js              # English translations (En)
+    │   │       └── es.js              # Spanish translations (Es)
+    │   └── images/                    # Team photos, logo, section images
     └── sections/
         ├── tos.html                   # Terms of Service
-        └── policies.html             # Privacy Policy (Ley N° 29733)
+        └── policies.html              # Privacy Policy (Ley N° 29733)
 ```
+
+---
+
+## Deployment
+
+The site is published with **GitHub Pages** at [iotech-2620-8741.github.io/qualitrack-website](https://iotech-2620-8741.github.io/qualitrack-website/).
+
+Every push to `main` runs the `Deploy to GitHub Pages` workflow (`.github/workflows/deploy.yml`), which publishes the `public/` folder as the root of the site. The workflow can also be run manually from the **Actions** tab.
 
 ---
 
@@ -86,15 +103,11 @@ First stable release of the QualiTrack Landing Page.
 
 | Name | Code | Role |
 |---|---|---|
-| Baca Camargo, Vitaly Arturo | U20231c426 | Software Engineer |
-| Cutiri Agüero, Fabrizio Alexander | U201914181 | Software Engineer |
-| Guzmán Cabrejos, Yaku Mateo | u20231b173 | Software Engineer |
-| Huapaya Galindo, Dyron | U202322855 | Software Engineer |
-| Lopez Roman, Franco Mauricio | U202315890 | Software Engineer |
+| Becerra Ttito, Felix Orlando | U20211B387 | Software Engineer |
+| Jara Benites, Quique Vladimir | U202022365 | Software Engineer |
 | Montes Ramos, Henry Jaredt | U20231D343 | Software Engineer |
 | Quiroz Cáceres, Adrian | U202214864 | Software Engineer |
 | Ruiz Madrid, Billy Jake | U202116401 | Software Engineer |
-| Torres Apolinario, Giovany Smith | U202311601 | Software Engineer |
 
 > Software Engineering students at **Universidad Peruana de Ciencias Aplicadas (UPC)**.
 
